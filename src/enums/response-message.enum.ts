@@ -1,0 +1,15 @@
+export enum ResponseMessage {
+    CREATE_LIST_SUCCESS = ' successfully created',
+    CREATE_LIST_FAIL = ' cannot be created',
+    DELETE_LIST_SUCCESS = ' successfully deleted',
+    DELETE_LIST_FAIL = 'cannot be deleted',
+    GET_LIST_SUCCESS = ' successfully retrieved',
+    GET_LIST_FAIL = ' not found',
+    UPDATE_LIST_SUCCESS = ' successfully updated',
+    UPDATE_LIST_FAIL = ' cannot be updated',
+    CREATE_TASK_SUCCESS = ' successfully added',
+    CREATE_TASK_FAIL = 'could not be added',
+    ERROR = 'Unknown error.',
+    INVALID_REQUEST = 'Invalid Request!',
+    GET_ITEM_ERROR = 'Item does not exist',
+}
